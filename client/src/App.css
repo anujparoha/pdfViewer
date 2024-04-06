@@ -1,0 +1,129 @@
+/* Add these styles to your App.css or a separate CSS file */
+
+  
+  /* Styles for buttons */
+  .pdf-div button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* App.css */
+
+/* Form Styles */
+.formStyle {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .formStyle h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Uploaded PDF Section *//* App.css */
+
+/* Uploaded PDF Section *//* App.css */
+
+/* Uploaded PDF Section */
+.uploaded {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .uploaded h4 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .output-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .inner-pdf {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inner-pdf h6 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Title Style */
+  .uploaded-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* PdfComp Styles (already provided) */
+  .pdf-div {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .pdf-div p {
+    text-align: center;
+  }
+  
+  .react-pdf__Page {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+  
+  .react-pdf__Page canvas {
+    width: 100%;
+    height: auto;
+  }
+  
